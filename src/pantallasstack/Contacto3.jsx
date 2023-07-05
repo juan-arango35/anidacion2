@@ -5,6 +5,7 @@ import {Button} from 'react-native-paper';
 const Contacto3 = ({navigation}) => {
   return (
     <View style={styles.container}>
+
       <View style={styles.containerbotton}>
 
         <Button
