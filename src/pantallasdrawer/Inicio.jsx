@@ -52,6 +52,7 @@ const Inicio = ({navigation}) => {
               values,
               errors,
               isValid,
+              touched,
             }) => (
               <>
                 <TextInput
@@ -64,7 +65,7 @@ const Inicio = ({navigation}) => {
                   keyboardType="email-address"
                 />
 
-                {errors.email && (
+                {(errors.email && touched.email)  && (
                   <Text style={{fontSize: 20,fontWeight: 'bold', color: 'red'}}>
                     {errors.email}
                   </Text>
@@ -78,7 +79,7 @@ const Inicio = ({navigation}) => {
                   value={values.password}
                   secureTextEntry
                 />
-                {errors.password && (
+                {(errors.password && touched.password) && (
                   <Text style={{fontSize: 20,fontWeight: 'bold', color: 'red'}}>
                     {errors.password}
                   </Text>

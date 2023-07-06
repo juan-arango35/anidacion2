@@ -3,13 +3,19 @@ import React from 'react'
 
 const SecondRoute = () => {
   return (
-    <View  style={{backgroundColor: 'orange', flex: 1}}  >
-
-        <Text>Hola como estas</Text>
-  
-
-    </View>
-  )
+    <View  style={{backgroundColor: 'gray', flex: 1 , justifyContent: 'center' , alignItems: 'center'}}  >
+    <Text style={styles.texto}> Estamos en la vetana 2</Text>
+   
+  </View>
+)
 }
 
-export default SecondRoute
+export default SecondRoute; 
+
+const styles = StyleSheet.create({
+texto: {
+  fontSize: 30,
+  color: 'black',
+  fontWeight: 'bold' 
+}
+});
