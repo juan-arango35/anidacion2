@@ -5,6 +5,7 @@ import {GestureHandlerRootView} from 'react-native-gesture-handler';
 import Carousel from 'react-native-reanimated-carousel';
 
 
+
 import {Image} from 'react-native';
 
 const Perfil1 = () => {
