@@ -28,7 +28,7 @@ const images= [
     <GestureHandlerRootView style={{flex:1}} >
 
       <View style={styles.fondo}>
-        <Text  style={styles.texto}  > CARRUSEL DE AUTOS</Text>
+        <Text  style={styles.texto}  > CARRUSEL DE MOTOS</Text>
 
         <Carousel
         
